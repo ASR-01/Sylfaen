@@ -5,7 +5,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-
+  
   flex-direction: column;
   margin: 0 0 5rem;
 }
@@ -139,8 +139,14 @@ h1 {
 }
 
 .contact_info a {
-  color: b;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  margin: 10px 0;
+  gap: 3px;
 }
+
 
 .location {
   display: flex;

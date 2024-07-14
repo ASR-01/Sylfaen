@@ -1,27 +1,54 @@
+/* Home Page CSS */
 .home_container {
- display: flex;
- width: 100%;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- margin: 0 0 5rem;
-}
-
-.home_container img {
- width: 100%;
-
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 5rem;
 }
 
 h1 {
- margin: 2rem 0;
- font-size: 1.5rem;
+  margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
-/* .home_container_content {
- display: flex;
- line-height: 2rem;
- width: 100%;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-} */
+.home_container_content {
+  padding: 2rem;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  flex-direction: column;
+}
+
+.home_container_content_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.home_container_content_grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .home_container_content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 666px) {
+  .home_container_content {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
