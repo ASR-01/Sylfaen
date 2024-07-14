@@ -5,6 +5,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+
   flex-direction: column;
   margin: 0 0 5rem;
 }
@@ -135,6 +136,10 @@ h1 {
   justify-content: start;
   align-items: start;
   gap: 15px;
+}
+
+.contact_info a {
+  color: b;
 }
 
 .location {

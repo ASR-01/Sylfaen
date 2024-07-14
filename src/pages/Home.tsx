@@ -1,13 +1,10 @@
-import "./Home.css";
+import "./Home.css"
 const Home = () => {
   return (
-    <section
-      className="container section section__height home_component"
-      id="home"
-    >
-      <h2 className="section__title">Home</h2>
-    </section>
-  );
-};
+    <div className="home_container">
+      
+    </div>
+  )
+}
 
-export default Home;
+export default Home

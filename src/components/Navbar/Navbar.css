@@ -7,9 +7,9 @@
 }
 
 .Fixed_header {
+  background-color: rgb(235, 236, 236);
   display: flex;
   justify-content: center;
-  background-color: white;
   align-items: center;
   height: 12vh;
   width: 100%;
