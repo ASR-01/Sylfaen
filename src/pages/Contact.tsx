@@ -39,7 +39,7 @@ const Contact = () => {
           making it convenient for clients and partners to reach us.
         </p>
 
-        <h2>Contact Information</h2>
+        <h2 className="contact_h2">Contact Information</h2>
         <div className="contact_container_content_contact">
           <div>
             <h4>Email:</h4>

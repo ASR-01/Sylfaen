@@ -1,10 +1,13 @@
 import "./Home.css";
-import Img1 from "../../public/Img.png";
-import Img2 from "../../public/Images/Fon1.jpg";
-import Img3 from "../../public/Images/Fon2.jpg";
-import Img4 from "../../public/Images/fon3.jpg";
-import Img5 from "../../public/Images/fon4.jpg";
-import Img6 from "../../public/Images/fon5.jpg";
+import Img1 from "../../public/images/8.png";
+import Img2 from "../../public/images/1.png";
+import Img3 from "../../public/images/2.png";
+import Img4 from "../../public/images/3.png";
+import Img6 from "../../public/images/9.png";
+import Img5 from "../../public/logo.jpg";
+import Img8 from "../../public/images/5.png";
+import Img7 from "../../public/images/6.png";
+import Img9 from "../../public/images/3.png";
 
 const Home = () => {
   return (
@@ -17,6 +20,9 @@ const Home = () => {
           <img src={Img4} alt="Landing" className="home_img_04" />
           <img src={Img5} alt="Landing" className="home_img_05" />
           <img src={Img6} alt="Landing" className="home_img_06" />
+          <img src={Img7} alt="Landing" className="home_img_07" />
+          <img src={Img8} alt="Landing" className="home_img_08" />
+          <img src={Img9} alt="Landing" className="home_img_09" />
         </div>
       </div>
     </div>

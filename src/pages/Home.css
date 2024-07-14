@@ -35,6 +35,15 @@ h1 {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+
+
+.home_container_content_grid img:hover {
+ transform: scale(0.9); 
+ z-index: 0;
 }
 
 @media (max-width: 1024px) {
