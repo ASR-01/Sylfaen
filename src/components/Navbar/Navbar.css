@@ -104,9 +104,8 @@
     bottom: 0;
     z-index: 1000;
     height: 13vh;
-
-    box-shadow: 1px 0px 10px 2px rgba(159, 153, 153, 0.443);
-    border-radius: 50px 50px 0 0;
+    box-shadow: 1px 0px 2px 1px rgba(159, 153, 153, 0.443);
+    border-radius: 30px 30px 0 0;
   }
 
   .nav_link_container_2 {
@@ -146,14 +145,23 @@
     width: 100%;
   }
 
+  .nav_link_container_bottom {
+    height: 10vh;
+  }
   .nav_img {
     width: 8rem;
   }
 
   .nav_title {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .nav_icon_2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+
+  .nav_link_container_2 {
+    justify-content: center;
+    padding: 1rem;
+    gap: 3em;
   }
 }
