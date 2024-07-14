@@ -15,9 +15,13 @@ h1 {
 }
 
 .about_container_content {
+  box-shadow: 1px 1px 1px 1px rgb(210, 199, 199);
   display: flex;
+  width: 90%;
+  padding: 2rem;
+  border-radius: 40px;
   line-height: 2rem;
-  width: 58%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -91,11 +95,14 @@ h1 {
 }
 
 .contact_container_content {
+  box-shadow: 1px 1px 1px 1px rgb(167, 157, 157);
   display: flex;
   line-height: 2rem;
   gap: 1rem;
-  width: 58%;
+  width: 90%;
+  padding: 2rem;
   justify-content: center;
+  border-radius: 40px;
   align-items: center;
   flex-direction: column;
 }
