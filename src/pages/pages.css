@@ -197,11 +197,19 @@ h1 {
     width: 100%;
     flex-wrap: wrap;
     gap: 2.5rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .contact_info {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px 0;
+    gap: 3px;
   }
 
   .location iframe {
     width: 100%;
-    
   }
 }
