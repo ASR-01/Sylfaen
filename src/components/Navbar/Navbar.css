@@ -1,12 +1,25 @@
+.main_header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+}
+
 .Fixed_header {
   display: flex;
   justify-content: center;
+  background-color: white;
   align-items: center;
+  height: 12vh;
   width: 100%;
+  position: fixed;
+  top: 0%;
 }
 .nav_container {
   display: flex;
   justify-content: space-around;
+  background-color: white;
   align-items: center;
   width: 90%;
   box-shadow: 1px 0px 3px 2px rgba(159, 153, 153, 0.443);
@@ -22,7 +35,7 @@
 .nav_img_container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: start;
   width: 50%;
 }
 
@@ -67,7 +80,7 @@
 }
 
 .content {
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 .nav_link_container_bottom {
@@ -102,6 +115,7 @@
     width: 100%;
     padding: 2rem;
     position: fixed;
+    background-color: white;
     bottom: 0;
     z-index: 1000;
     height: 13vh;

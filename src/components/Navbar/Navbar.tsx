@@ -14,7 +14,9 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header className='Fixed_header'>
+    <header className='main_header'>
+      <div className='Fixed_header'>
+
       <div className='nav_container'>
         <div className='nav_img_container'>
           <Link to="/">
@@ -44,10 +46,10 @@ const Navbar = () => {
        <div className='nav_link_container_2'>
           {navLinks?.map((items) => (
             <Link
-              className={`nav_links ${activeLink === items.path ? 'active' : ''}`}
-              key={items.id}
-              to={items.path}
-              onClick={() => setActiveLink(items.path)}
+            className={`nav_links ${activeLink === items.path ? 'active' : ''}`}
+            key={items.id}
+            to={items.path}
+            onClick={() => setActiveLink(items.path)}
             >
               <div className='nav_icon_2'>
                 <items.icon />
@@ -61,6 +63,7 @@ const Navbar = () => {
        </div>
 
       </div>
+          </div>
     </header>
   );
 };
