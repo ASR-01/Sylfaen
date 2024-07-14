@@ -1,7 +1,9 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+     <section className="container section section__height" id="contactme">
+     <h2 className="section__title">Contactme</h2>
+   </section>
   )
 }
 

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
-
 const Home = React.lazy(() => import("./pages/Home"));
 const Contact = React.lazy(() => import("./pages/Contact"));
 const Sales = React.lazy(() => import("./pages/Sales"));
@@ -12,8 +11,8 @@ const About = React.lazy(() => import("./pages/About"));
 const App = () => {
   return (
     <Router>
-      <div>
         <Navbar />
+      <div className="content">
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -22,10 +21,10 @@ const App = () => {
             <Route path="/about" element={<About />} />
           </Routes>
         </Suspense>
-        <Footer />
       </div>
+        <Footer />
     </Router>
   );
-}
+};
 
 export default App;

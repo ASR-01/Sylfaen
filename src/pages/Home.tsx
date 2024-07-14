@@ -1,7 +1,9 @@
 
 const Home = () => {
   return (
-    <div>Home</div>
+     <section className="container section section__height home_component" id="home">
+     <h2 className="section__title">Home</h2>
+   </section>
   )
 }
 

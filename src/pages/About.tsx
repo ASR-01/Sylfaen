@@ -1,7 +1,9 @@
 
 const About = () => {
   return (
-    <div>About</div>
+    <section className="container section section__height" id="about">
+    <h2 className="section__title">About</h2>
+  </section>
   )
 }
 
