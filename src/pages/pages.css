@@ -11,12 +11,13 @@
 
 h1 {
   margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
 .about_container_content {
   display: flex;
   line-height: 2rem;
-  width: 70%;
+  width: 58%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -71,5 +72,136 @@ h1 {
   .about_container_content_features ul {
     line-height: 1.6rem;
     gap: 1rem;
+  }
+}
+
+/* Contact Page Css */
+
+.contact_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 5rem;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+.contact_container_content {
+  display: flex;
+  line-height: 2rem;
+  gap: 1rem;
+  width: 58%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_container_content_addresses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.contact_container_content_addresses_01 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 45%;
+  gap: 0.2rem;
+  line-height: 1.7rem;
+}
+
+.office_zone {
+  width: 25%;
+}
+
+.contact_container_content_contact {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.contact_info {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+}
+
+.location {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.location iframe {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .contact_container_content {
+    line-height: 1.6rem;
+    width: 75%;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .contact_container_content_addresses_01 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 666px) {
+  .contact_container_content {
+    line-height: 1.6rem;
+    width: 85%;
+    font-size: 0.9rem;
+  }
+
+  .contact_container_content_addresses {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  .contact_container_content_addresses_01 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .contact_container_content_contact {
+    display: flex;
+    margin: 2rem 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    font-size: 0.8rem;
+  }
+
+  .location iframe {
+    width: 100%;
+    height: 50%;
   }
 }
