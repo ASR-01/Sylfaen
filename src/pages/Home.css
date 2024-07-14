@@ -1,4 +1,3 @@
-/* Home Page CSS */
 .home_container {
   display: flex;
   width: 100%;
@@ -11,6 +10,50 @@
 h1 {
   margin: 2rem 0;
   font-size: 1.5rem;
+}
+
+.home_container_content .Home_para {
+  font-family: sans-serif;
+  height: 45%;
+  padding: 10rem;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  background-color: black;
+  color: #b9b9b9;
+  margin: 2rem 0;
+  border-radius: 20px;
+  position: relative;
+  font-weight: 600;
+}
+
+.Home_para p span {
+  font-size: 5rem;
+
+  color: #6497f3;
+  font-weight: 400;
+}
+
+.box1 {
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  border-radius: 50%;
+  top: -9%;
+  left: -5%;
+  height: 200px;
+}
+
+.box2 {
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  border-radius: 50%;
+  bottom: -9%;
+  right: -5%;
+  height: 200px;
 }
 
 .home_container_content {
@@ -39,16 +82,47 @@ h1 {
   z-index: 1;
 }
 
-
-
 .home_container_content_grid img:hover {
- transform: scale(0.9); 
- z-index: 0;
+  transform: scale(0.9);
+  z-index: 0;
 }
 
 @media (max-width: 1024px) {
   .home_container_content {
     width: 90%;
+  }
+
+  .home_container_content_grid img:hover {
+    transform: none;
+  }
+
+  .home_container_content .Home_para {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    text-transform: capitalize;
+    background-color: black;
+    color: #b9b9b9;
+    margin: 1rem 0;
+  }
+
+  .Home_para p span {
+    font-size: 3rem;
+    color: #6497f3;
+    font-weight: 400;
+  }
+
+  .box1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  .box2 {
+    width: 10px;
+    height: 10px;
   }
 }
 
@@ -59,5 +133,38 @@ h1 {
 
   h1 {
     font-size: 1rem;
+  }
+
+  .home_container_content_grid img:hover {
+    transform: none;
+  }
+
+  .home_container_content .Home_para {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 1.9rem;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    text-transform: capitalize;
+    background-color: black;
+    color: #b9b9b9;
+    margin: 1rem 0;
+  }
+
+  .Home_para p span {
+    font-size: 2rem;
+    color: #6497f3;
+    font-weight: 400;
+  }
+
+  .box1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  .box2 {
+    width: 10px;
+    height: 10px;
   }
 }

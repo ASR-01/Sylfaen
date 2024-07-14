@@ -24,6 +24,17 @@ const Home = () => {
           <img src={Img8} alt="Landing" className="home_img_08" />
           <img src={Img9} alt="Landing" className="home_img_09" />
         </div>
+
+        <div className="Home_para">
+          <div className="box1"></div>
+          <div className="box2"></div>
+          <p>
+            <span>Sylfaen</span> is your comprehensive solution for multilingual
+            font and text processing needs. Designed to support various Indian
+            languages, Sylfaen combines ease of use with powerful features to
+            provide an unparalleled typing and text processing experience.
+          </p>
+        </div>
       </div>
     </div>
   );
