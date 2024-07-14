@@ -146,22 +146,22 @@
   }
 
   .nav_link_container_bottom {
-    height: 10vh;
+    height: 1vh;
   }
   .nav_img {
     width: 8rem;
   }
 
   .nav_title {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .nav_icon_2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .nav_link_container_2 {
     justify-content: center;
     padding: 1rem;
-    gap: 3em;
+    gap: 3.4em;
   }
 }
