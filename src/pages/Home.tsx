@@ -35,6 +35,9 @@ const Home = () => {
             provide an unparalleled typing and text processing experience.
           </p>
         </div>
+
+    
+        
       </div>
     </div>
   );
