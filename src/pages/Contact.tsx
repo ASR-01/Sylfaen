@@ -51,7 +51,7 @@ const Contact = () => {
                 </a>
               </li>
               <li className="contact_info">
-                For support:{" "}
+                For support and help:{" "}
                 <a href="https://mail.google.com/mail/u/0/#inbox">
                   sylfaen.software@gmail.com
                 </a>
@@ -65,7 +65,7 @@ const Contact = () => {
             </ul>
           </div>
           <div>
-            <h4>Office Hours:</h4>
+            <h4>Phone:</h4>
             <ul>
               <li>Registration Office: +91 9323572423</li>
               <li>Borivali Office: +91 7045932108</li>
