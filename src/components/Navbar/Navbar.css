@@ -91,6 +91,7 @@
   }
 
   .nav_img {
+    margin-top: 0.5rem;
     width: 10rem;
   }
 
@@ -132,9 +133,10 @@
 
 @media (max-width: 666px) {
   .nav_container {
-    height: 8vh;
+    padding: 1.3rem;
+    margin: 2rem;
+    height: 5vh;
   }
-
   .nav_link_container {
     display: none;
   }
@@ -149,6 +151,7 @@
     height: 1vh;
   }
   .nav_img {
+    margin-top: 0.5rem;
     width: 8rem;
   }
 
