@@ -23,9 +23,9 @@ const Contact = () => {
           </div>
 
           <div className="contact_container_content_addresses_01 office_zone">
-            <h3>Office Zone</h3>
+            <h3>Office Address</h3>
             <h4>Address:</h4>
-            <p>The Zone F 96 Chandavarkar Lane Borivali West Mumbai</p>
+            <p> F 96, The Zone  Chandavarkar Road, Borivali West Mumbai 400092</p>
           </div>
         </div>
 
