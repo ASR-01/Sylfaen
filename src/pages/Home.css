@@ -33,6 +33,9 @@ h1 {
   font-weight: 600;
 }
 
+.Home_para p{
+  font-size: 1.5rem;
+}
 .Home_para p span {
   font-size: 4rem;
 
