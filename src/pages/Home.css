@@ -116,6 +116,10 @@ h1 {
     margin: 1rem 0;
   }
 
+  .Home_para p{
+    font-size: 0.9rem;
+  }
+
   .Home_para p span {
     font-size: 2rem;
     color: #6497f3;
@@ -142,6 +146,9 @@ h1 {
     font-size: 1rem;
   }
 
+  .Home_para p{
+    font-size: 0.6rem;
+  }
   .home_container_content_grid img:hover {
     transform: none;
   }
