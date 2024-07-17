@@ -70,7 +70,7 @@ const Contact = () => {
           <div>
             <h4>Phone:</h4>
             <ul>
-            <li style={{fontWeight:"700"}}>Adv Yogesh S Jagdale</li>
+            <li style={{fontWeight:"700"}}> Yogesh S Jagdale</li>
               <li>Registration Office: +91 9323572423</li>
               <li>Borivali Office: +91 7045932108</li>
             </ul>
