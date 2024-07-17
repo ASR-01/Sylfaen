@@ -30,15 +30,18 @@ const Footer = () => {
                 <li>
                   {" "}
                   <a>
-                    Mira Co-op Housing Society Building No A3, 02 Behind Hotel
-                    Amar Palace Mira Bhayandar Thana 401107
+                    <p style={{ marginBottom: "1em", fontWeight: "700" }}>
+                      {" "}
+                      Office Address
+                    </p>
+                    F 96, The Zone Chandavarkar Road, Borivali West Mumbai
+                    400092
                   </a>{" "}
                 </li>
               </ul>
             </ul>
           </div>
 
-          
           <div className="footer-col">
             <h4>Find us here</h4>
             <iframe
@@ -61,7 +64,6 @@ const Footer = () => {
               <a href="#">
                 <FaTwitter />
               </a>
-              
             </div>
           </div>
         </div>
