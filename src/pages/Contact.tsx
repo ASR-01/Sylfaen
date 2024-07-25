@@ -27,6 +27,7 @@ const Contact = () => {
             <h4>Address:</h4>
             <p>
               {" "}
+              XUV TECHNOLOGY
               F 96, The Zone Chandavarkar Road, Borivali West Mumbai 400092
             </p>
           </div>
