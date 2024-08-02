@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact_container">
       <h1> Contact Us - Sylfaen </h1>
-      <h1 style={{color:"red"}} >* Sylfean software is not a free software * </h1>
+      <h1 style={{color:"red"}} >* Sylfaen software is not a free software * </h1>
       <div className="contact_container_content">
         <p>
           At Sylfaen, we are dedicated to providing top-notch multilingual font
