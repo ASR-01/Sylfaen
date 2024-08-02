@@ -177,7 +177,7 @@ h1 {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
     margin: 2rem 0;
   }
@@ -191,6 +191,7 @@ h1 {
 
   h1 {
     font-size: 1rem;
+    margin: 0;
   }
 
   .contact_container_content_contact {
