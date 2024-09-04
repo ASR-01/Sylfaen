@@ -37,7 +37,19 @@ const Sales = () => {
               <strong>Free Trial:</strong> Experience Rear for free for 14 days.
             </p>
             <p>
-              <strong>Subscription:</strong> $9.99/month after the trial period.
+              Start Now!
+            </p>
+            <button className="button">Start Free Trial</button>
+          </section>
+          <section>
+            <h2>Pricing</h2>
+            <p>Discover the power of Rear Multilingual Software today!</p>
+
+            <p>
+              <strong>Free Trial:</strong> Experience Rear for free for 14 days.
+            </p>
+            <p>
+              <strong>Subscription:</strong> <span  className="price">₹17,000</span> Lifetime.
             </p>
             <button className="button">Start Free Trial</button>
           </section>
@@ -45,23 +57,12 @@ const Sales = () => {
             <h2>Pricing</h2>
             <p>Discover the power of Rear Multilingual Software today!</p>
             <p>
-              <strong>Free Trial:</strong> Experience Rear for free for 14 days.
+              <strong>Upcomming:</strong> With more features and with AI.
             </p>
             <p>
-              <strong>Subscription:</strong> $9.99/month after the trial period.
+              <strong>Subscription:</strong>  <span className="price" >₹1,70,000</span>  Lifetime.
             </p>
-            <button className="button">Start Free Trial</button>
-          </section>
-          <section>
-            <h2>Pricing</h2>
-            <p>Discover the power of Rear Multilingual Software today!</p>
-            <p>
-              <strong>Free Trial:</strong> Experience Rear for free for 14 days.
-            </p>
-            <p>
-              <strong>Subscription:</strong> $9.99/month after the trial period.
-            </p>
-            <button className="button">Start Free Trial</button>
+            <button className="button" disabled>Comming Soon</button>
           </section>
         </div>
       </div>
