@@ -32,37 +32,20 @@ const Sales = () => {
         <div className="pricing_cart">
           <section>
             <h2>Pricing</h2>
-            <p>Discover the power of Rear Multilingual Software today!</p>
-            <p>
-              <strong>Free Trial:</strong> Experience Rear for free for 14 days.
-            </p>
-            <p>
-              Start Now!
-            </p>
-            <button className="button">Start Free Trial</button>
-          </section>
-          <section>
-            <h2>Pricing</h2>
-            <p>Discover the power of Rear Multilingual Software today!</p>
+            <p>Discover the power of Sylfaen today!</p>
 
             <p>
-              <strong>Free Trial:</strong> Experience Rear for free for 14 days.
+              <strong>Subscription:</strong> <span  className="price">₹17,700</span> Lifetime.
             </p>
-            <p>
-              <strong>Subscription:</strong> <span  className="price">₹17,000</span> Lifetime.
-            </p>
-            <button className="button">Start Free Trial</button>
+            <button className="button">Buy Now</button>
           </section>
           <section>
             <h2>Pricing</h2>
-            <p>Discover the power of Rear Multilingual Software today!</p>
+            <p>Discover the power of Sylfaen today!</p>
             <p>
-              <strong>Upcomming:</strong> With more features and with AI.
+              <strong>Subscription:</strong>  <span className="price" >₹1,70,700</span>  Lifetime.
             </p>
-            <p>
-              <strong>Subscription:</strong>  <span className="price" >₹1,70,000</span>  Lifetime.
-            </p>
-            <button className="button" disabled>Comming Soon</button>
+            <button className="button" disabled>Buy Now</button>
           </section>
         </div>
       </div>
