@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 import "./pages.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Sales = () => {
 
   const handleToast = () => {
@@ -44,9 +44,12 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹17,700</span> Lifetime.
             </p>
-            <Link to={"https://register.sylfaen.in/"}>
+            {/* <Link to={"https://register.sylfaen.in/"}>
               <button className="button">Buy Now</button>
-            </Link>
+            </Link> */}
+ 
+              <button className="button">Buy Now</button>
+            
           </section>
           <section>
             <h2>Pricing</h2>
