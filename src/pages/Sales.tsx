@@ -1,11 +1,11 @@
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "./pages.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Sales = () => {
 
-  // const handleToast = () => {
-  //    toast.success("Soon Coming")
-  // }
+  const handleToast = () => {
+     toast.success("Soon Coming")
+  }
   return (
     <div className="sales_container">
       <h1> Sylfaen Multilingual Software </h1>
@@ -44,12 +44,9 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹17,700</span> Lifetime.
             </p>
-            {/* <Link to={"https://register.sylfaen.in/"}>
+            <Link to={"https://register.sylfaen.in/"}>
               <button className="button">Buy Now</button>
-            </Link> */}
- 
-              <button className="button">Buy Now</button>
-            
+            </Link>
           </section>
           <section>
             <h2>Pricing</h2>
@@ -58,7 +55,7 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹1,70,700</span> Lifetime.
             </p>
-            <button className="button" >
+            <button  onClick={handleToast} className="button" >
               Buy Now
             </button>
           </section>
