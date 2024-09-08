@@ -1,11 +1,11 @@
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import "./pages.css";
 // import { Link } from "react-router-dom";
 const Sales = () => {
 
-  const handleToast = () => {
-     toast.success("Soon Coming")
-  }
+  // const handleToast = () => {
+  //    toast.success("Soon Coming")
+  // }
   return (
     <div className="sales_container">
       <h1> Sylfaen Multilingual Software </h1>
@@ -58,7 +58,7 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹1,70,700</span> Lifetime.
             </p>
-            <button  onClick={handleToast} className="button" >
+            <button className="button" >
               Buy Now
             </button>
           </section>
