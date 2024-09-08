@@ -1,17 +1,11 @@
 import { toast } from "react-toastify";
 import "./pages.css";
-
+import { Link } from "react-router-dom";
 const Sales = () => {
 
   const handleToast = () => {
      toast.success("Soon Coming")
   }
-
-
-  const handleNavigate = () => {
-    window.location.href = "https://register.sylfaen.in/";
- }
-
   return (
     <div className="sales_container">
       <h1> Sylfaen Multilingual Software </h1>
@@ -50,9 +44,9 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹17,700</span> Lifetime.
             </p>
-          
-              <button onClick={handleNavigate} className="button">Buy Now</button>
-            
+            <Link to={"https://register.sylfaen.in/"}>
+              <button className="button">Buy Now</button>
+            </Link>
           </section>
           <section>
             <h2>Pricing</h2>
