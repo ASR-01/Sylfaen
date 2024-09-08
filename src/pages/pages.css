@@ -280,6 +280,7 @@ h1 {
  background-color: #2461ea;
  color: white;
  border: none;
+ cursor: pointer;
  font-family: sans-serif;
  text-transform: uppercase;
  font-weight: 700;

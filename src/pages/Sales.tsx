@@ -1,5 +1,10 @@
+import { toast } from "react-toastify";
 import "./pages.css";
 const Sales = () => {
+
+  const handleToast = () => {
+     toast.success("Soon Coming")
+  }
   return (
     <div className="sales_container">
       <h1> Sylfaen Multilingual Software </h1>
@@ -35,17 +40,23 @@ const Sales = () => {
             <p>Discover the power of Sylfaen today!</p>
 
             <p>
-              <strong>Subscription:</strong> <span  className="price">₹17,700</span> Lifetime.
+              <strong>Subscription:</strong>{" "}
+              <span className="price">₹17,700</span> Lifetime.
             </p>
-            <button className="button">Buy Now</button>
+            <a href={"https://register.sylfaen.in/"}>
+              <button className="button">Buy Now</button>
+            </a>
           </section>
           <section>
             <h2>Pricing</h2>
             <p>Discover the power of Sylfaen today!</p>
             <p>
-              <strong>Subscription:</strong>  <span className="price" >₹1,70,700</span>  Lifetime.
+              <strong>Subscription:</strong>{" "}
+              <span className="price">₹1,70,700</span> Lifetime.
             </p>
-            <button className="button" disabled>Buy Now</button>
+            <button  onClick={handleToast} className="button" >
+              Buy Now
+            </button>
           </section>
         </div>
       </div>
