@@ -23,8 +23,7 @@ const UserAgreement = () => {
               <h4>3. Types of Licenses:</h4>
               <p>
                 Single Computer Usage License: One license for use on one
-                computer. Home users can use this on all personal computers they
-                own, but business users must have a separate license for each
+                computer.business users must have a separate license for each
                 computer where Sylfaen is installed.
               </p>
             </div>
