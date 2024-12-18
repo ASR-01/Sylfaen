@@ -21,6 +21,9 @@ const Footer = () => {
               <li>
                 <Link to={"/contact"}>Contact Us</Link>
               </li>
+              <li>
+                <Link to={"/userAgreement"}>User Agreement</Link>
+              </li>
             </ul>
           </div>
           <div className="footer-col">

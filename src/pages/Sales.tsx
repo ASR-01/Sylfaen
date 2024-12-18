@@ -2,10 +2,9 @@ import { toast } from "react-toastify";
 import "./pages.css";
 import { Link } from "react-router-dom";
 const Sales = () => {
-
   const handleToast = () => {
-     toast.success("Soon Coming")
-  }
+    toast.success("Soon Coming");
+  };
   return (
     <div className="sales_container">
       <h1> Sylfaen Multilingual Software </h1>
@@ -32,6 +31,18 @@ const Sales = () => {
               Regular updates and support to ensure compatibility with the
               latest operating systems and devices.
             </li>
+
+            <Link to={"/userAgreement"}>
+              <p
+                style={{
+                  color: "red",
+                  paddingTop: "1em",
+                  fontWeight: "bolder",
+                }}
+              >
+                User License Agreement
+              </p>
+            </Link>
           </ul>
         </section>
 
@@ -55,7 +66,7 @@ const Sales = () => {
               <strong>Subscription:</strong>{" "}
               <span className="price">₹1,70,700</span> Lifetime.
             </p>
-            <button  onClick={handleToast} className="button" >
+            <button onClick={handleToast} className="button">
               Buy Now
             </button>
           </section>
