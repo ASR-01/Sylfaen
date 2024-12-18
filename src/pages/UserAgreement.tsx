@@ -1,3 +1,4 @@
+import "./pages.css";
 const UserAgreement = () => {
   return (
     <div className="about_container">
