@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # Development service
+  sylfaen-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+    networks:
+      - sylfaen-network
+
+  # Production service
+  sylfaen-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - sylfaen-network
+    profiles:
+      - production
+
+networks:
+  sylfaen-network:
+    driver: bridge
+
+volumes:
+  node_modules: 

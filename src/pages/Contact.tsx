@@ -52,13 +52,13 @@ const Contact = () => {
               <li className="contact_info">
                 For general inquiries:{" "}
                 <a href="https://mail.google.com/mail/u/0/#inbox">
-                  sylfaen.software@gmail.com
+                mail@sylfaen.in
                 </a>
               </li>
               <li className="contact_info">
                 For support and help:{" "}
                 <a href="https://mail.google.com/mail/u/0/#inbox">
-                  sylfaen.software@gmail.com
+                mail@sylfaen.in
                 </a>
               </li>
               <li className="contact_info">
